@@ -17,4 +17,11 @@ body
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    transition: all cubic-bezier(0.91, 1, 1, 1.17);
+}
+
+p{
+    transition: all 0.3s cubic-bezier(0.43, 1.41, 0.55, 1.01);
+    transform: scaleY(0);
 }
